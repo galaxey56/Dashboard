@@ -27,28 +27,28 @@ const Dashboard = (props) => {
         <div className="container">
           <h5 className={styles.header}>Dashboard</h5>
           <p>Welcome back, {props.user}</p>
-          <div class="container">
-            <div class="row">
-              <div class={`col ${styles.right}`}>
+          <div className="container">
+            <div className="row">
+              <div className={`col ${styles.right}`}>
                 <span className={styles.tag}>Balance</span>
                 <br />
                 <span className={styles.value}>5999.99$</span>
               </div>
-              <div class={`col ${styles.right}`}>
+              <div className={`col ${styles.right}`}>
                 <span className={styles.tag}>Profits</span>
                 <br />
                 <span className={styles.value}>$678</span>
                 <img src={up} alt="profit" className={styles.icons}></img>&nbsp;
                 +98%
               </div>
-              <div class={`col ${styles.right}`}>
+              <div className={`col ${styles.right}`}>
                 <span className={styles.tag}>Losses</span>
                 <br />
                 <span className={styles.value}>$450</span>
                 <img src={down} alt="profit" className={styles.icons}></img>
                 &nbsp; +48%
               </div>
-              <div class={`col`}>
+              <div className={`col`}>
                 <span className={styles.tag}>Currencies</span>
                 <br />
                 <div className={styles.currencies}>
