@@ -1,0 +1,13 @@
+.changes{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    font-weight: bold;
+}
+.header{
+    color: blue;
+}
+.error{
+    border-color: red;
+    color: red;
+}
