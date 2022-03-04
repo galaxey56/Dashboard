@@ -20,7 +20,6 @@ const Login = (props) => {
   const UserHandler = (event) => {
     setUsername(event.target.value);
   };
-  console.log(error);
   return (
     <div className={`card ${styles.changes}`}>  
       <h2 className={`card-title text-center ${styles.header}`}>Login</h2>
